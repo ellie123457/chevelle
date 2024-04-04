@@ -45,7 +45,7 @@ class NumberGuessingGame:
 
             if result == "Correct":
                 print(f"Congratulations! You guessed the secret number {self.secret_number} in {attempts} attempts.")
-                out_of_guesses = True
+                won = True
                 break
             else:
                 print(f"{result}. Try again!")
